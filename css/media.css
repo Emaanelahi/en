@@ -1,0 +1,46 @@
+
+/* for XXL Screen  */
+
+@media ( max-width: 1399px) and ( min-width: 1200px){
+
+
+}
+
+/* for XL Screen  */
+
+@media ( max-width: 1199) and ( min-width: 992px){
+
+    section .container2 h1 + h2 + div{
+        justify-content: center;
+    }
+    
+}
+
+/* for L Screen  */
+
+@media ( max-width: 991px) and ( min-width: 768px){
+
+    
+}
+
+/* for M Screen */
+
+@media ( max-width: 767px) and ( min-width: 576px){
+
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* for S Screen  */
+
+@media ( max-width: 575px) and ( min-width: 1px){
+
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+}
+
+header{
+    /* width: 1440px; */
+    display: flex;
+    padding: 10px;
+}
+
+header div{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div ul{
+    margin-top: 10px;
+}
+
+header div ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+header div ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #169E00;
+}
+
+.sche{
+    width: 160px;
+    height: 40px;
+    background-color: #169E00;
+    display: flex;
+    margin-right: 0;
+    border-radius: 14px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.sche a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* header completed */
+
+main{
+    background-color: #169E00;
+    display: flex;
+    justify-content: center;
+}
+
+main h1{
+    color: white;
+    font-size: 60px;
+}
+
+.container1{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* main completed */
+
+section{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.rbox1{
+    width: 1000px;
+    height: 320px;
+    background-color: #002A96;
+    display: flex;
+    color: white;
+
+}
+
+.rbox2{
+    width: 1000px;
+    height: 320px;
+    background-color: #002A96;
+    display: flex;
+    color: white;
+}
+
+.rbox3{
+    width: 1000px;
+    height: 320px;
+    background-color: #002A96;
+    display: flex;
+    color: white;
+}
+
+.rbox4{
+    width: 1000px;
+    height: 320px;
+    background-color: #002A96;
+    display: flex;
+    color: white;
+}
+
+.img{
+    width: 393px;
+    height: 320px;
+    background-image: url("../images/com.jpeg");
+    background-size: cover;
+
+}
+
+.txt{
+    width: 607px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.txt h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.txt .sche{
+    margin-top: 10px;
+}
+
+/* section completed  */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #002A96;
+    padding: 10px;
+}
+
+footer div h1, p, h2{
+    color: white;
+    padding: 5px;
+}
+
+.form{
+    color: white;
+}
+
+.form .sche{
+    margin-top: 20px ;
+    margin-bottom: 10px ;
+}
+
+footer ul{
+    padding-left: 15px;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* footer completed */
